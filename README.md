@@ -13,7 +13,6 @@ El análisis busca detectar **patrones en transacciones fraudulentas** para comp
 ## 🔍 Dataset
 
 - **Fuente:** Dataset sintético de transacciones con tarjetas de crédito.  
-- **Cantidad de registros:** (Aquí puedes agregar el número total de filas después de explorarlo con `df.shape`).
 - **Principales columnas:**
   - `Transaction_ID` → Identificador único de la transacción.
   - `Transaction_Amount` → Monto de la transacción.
@@ -43,17 +42,14 @@ El análisis busca detectar **patrones en transacciones fraudulentas** para comp
 
 ### 2️⃣ **Identificación de Patrones en Fraudes**
 - **¿Qué tipos de transacción tienen más fraude?**  
-  🔹 (Ejemplo: Transferencias y retiros tienen una tasa de fraude más alta que compras).  
+  🔹 Transferencias y retiros tienen una tasa de fraude más alta que compras.  
 - **¿En qué rango de montos hay más fraudes?**  
-  🔹 (Ejemplo: Transacciones fraudulentas suelen estar en el rango de $X a $Y).  
+  🔹 (Ejemplo: Transacciones fraudulentas suelen estar en el rango de $500 a $3.000.  
 - **¿Las transacciones fraudulentas ocurren más en ciertos horarios?**  
-  🔹 (Ejemplo: Alta incidencia de fraudes entre la medianoche y las 3 a.m.).  
-- **¿Qué ciudades presentan más fraudes?**  
-  🔹 (Ejemplo: La ciudad A tiene el 35% de fraudes del total).
+  🔹 Alta incidencia de fraudes en el horario comercial y la medianoche.  
 
 ### 3️⃣ **Visualización de Datos**
 - Histogramas y boxplots de montos de fraude vs. transacciones legítimas.
-- Heatmaps de correlación entre variables.
 - Gráficos de barras con la distribución de fraudes por tipo de transacción.
 
 ---
