@@ -51,7 +51,6 @@ El análisis busca detectar **patrones en transacciones fraudulentas** para comp
 ### 3️⃣ **Visualización de Datos**
 - Histogramas y boxplots de montos de fraude vs. transacciones legítimas.
 - Gráficos de barras con la distribución de fraudes por tipo de transacción.
-
 ---
 
 ## 🏁 Conclusiones
