@@ -56,10 +56,23 @@ El análisis busca detectar **patrones en transacciones fraudulentas** para comp
 ## 🏁 Conclusiones
 
 🔹 **Patrón de Fraude Identificado**  
-_(Aquí puedes resumir las principales conclusiones de tu análisis, por ejemplo: los fraudes ocurren más en ciertos horarios, ciertos tipos de transacciones o en rangos de montos específicos)._  
+- Proporción de Fraude: El gráfico muestra que el 5% de las transacciones totales son fraudulentas, lo que destaca la importancia de identificar y prevenir el fraude.
+
+- Patrón principal: El análisis revela tres patrones principales de fraude:
+
+- Rangos de montos: El gráfico muestra que los montos entre 2500 y 3000 presentan la mayor proporción de transacciones fraudulentas, alcanzando un 6.2%. Le siguen los rangos de 4500 (4.6%) y 500 (5.8%). Esto sugiere que los estafadores pueden estar enfocándose en transacciones de mayor valor, aunque también se observa actividad fraudulenta en montos más bajos.
+- Horarios: El gráfico muestra una concentración de actividad fraudulenta entre las 10 a.m. y las 12 p.m., con un pico a las 11 a.m. (8.6%). También se observa un aumento en la actividad fraudulenta entre las 6 p.m. y las 8 p.m., aunque en menor medida. Esto sugiere que los estafadores pueden estar aprovechando las horas de mayor actividad transaccional.
+- Tipos de transacción: El gráfico muestra que las transferencias son el tipo de transacción con mayor incidencia de fraude, representando el 5% del total de transacciones. Las compras y los retiros también presentan un número significativo de fraudes, aunque menor que las transferencias
 
 📌 **Siguientes pasos:**  
-_(Opcional: puedes mencionar si piensas aplicar modelos de Machine Learning o algún otro análisis adicional)._
+
+- Implicaciones: Este patrón sugiere que los estafadores pueden estar utilizando estrategias para identificar y aprovechar las transacciones de mayor valor durante las horas de mayor actividad y la vulnerabilidad de las transferencias. Esto podría indicar la necesidad de mejorar los sistemas de detección de fraude en tiempo real y fortalecer la vigilancia durante estos períodos y para este tipo de transacciones específicas.
+- Recomendaciones:
+Implementar medidas de seguridad reforzadas para transacciones entre 2500 y 3000, como la autenticación de dos factores o la verificación de identidad.
+Aumentar la vigilancia y el monitoreo de transacciones entre las 10 a.m. y las 12 p.m., especialmente para montos entre 2500 y 3000.
+Desarrollar modelos de detección de fraude más sofisticados que consideren la combinación de monto, horario y tipo de transacción, así como otras variables relevantes.
+Implementar medidas de seguridad adicionales para transferencias, como límites de monto, verificación de beneficiarios y alertas de transacciones sospechosas.
+Educar a los usuarios sobre cómo protegerse contra el fraude, especialmente en transacciones de alto valor, durante las horas de mayor riesgo y al realizar transferencias.
 
 ---
 
