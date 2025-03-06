@@ -77,12 +77,12 @@ Educar a los usuarios sobre cómo protegerse contra el fraude, especialmente en 
 ---
 
 📦 mi-proyecto  
-│-- 📂 data                 # Datos originales y procesados  
-│   │-- transacciones.csv    # Datos en bruto  
+│-- 📂 data # Datos originales y procesados  
+│   │-- credit_card_fraud_synthetic.csv   # Datos en bruto  
 │   │-- fraude_limpio.csv    # Datos limpios con fraudes  
 │   │-- fraude_por_monto.csv # Segmentación por montos  
-│-- 📂 notebooks             # Análisis en Jupyter/Colab  
-│   │-- fraude_analisis.ipynb # Notebook con análisis exploratorio  
+│-- 📂 notebooks             # Análisis en Colab  
+│   │-- data_analisis_fraude_tarjetas.ipynb # Notebook con análisis exploratorio  
 │-- 📂 images               # Gráficos generados  
 │   │-- fraude_horarios.png  # Imagen con fraudes por hora  
 │   │-- fraude_montos.png    # Imagen con fraudes por monto  
