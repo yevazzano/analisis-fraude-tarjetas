@@ -44,7 +44,7 @@ El análisis busca detectar **patrones en transacciones fraudulentas** para comp
 - **¿Qué tipos de transacción tienen más fraude?**  
   🔹 Transferencias y retiros tienen una tasa de fraude más alta que compras.  
 - **¿En qué rango de montos hay más fraudes?**  
-  🔹 (Ejemplo: Transacciones fraudulentas suelen estar en el rango de $500 a $3.000.  
+  🔹 Transacciones fraudulentas suelen estar en el rango de $500 a $3.000.  
 - **¿Las transacciones fraudulentas ocurren más en ciertos horarios?**  
   🔹 Alta incidencia de fraudes en el horario comercial y la medianoche.  
 
@@ -76,5 +76,15 @@ Educar a los usuarios sobre cómo protegerse contra el fraude, especialmente en 
 
 ---
 
-## 📂 Estructura del Proyecto
+📦 mi-proyecto  
+│-- 📂 data                 # Datos originales y procesados  
+│   │-- transacciones.csv    # Datos en bruto  
+│   │-- fraude_limpio.csv    # Datos limpios con fraudes  
+│   │-- fraude_por_monto.csv # Segmentación por montos  
+│-- 📂 notebooks             # Análisis en Jupyter/Colab  
+│   │-- fraude_analisis.ipynb # Notebook con análisis exploratorio  
+│-- 📂 images               # Gráficos generados  
+│   │-- fraude_horarios.png  # Imagen con fraudes por hora  
+│   │-- fraude_montos.png    # Imagen con fraudes por monto  
+│-- README.md               # Documentación del proyecto 
 
