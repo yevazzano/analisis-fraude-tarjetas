@@ -79,7 +79,7 @@ Educar a los usuarios sobre cómo protegerse contra el fraude, especialmente en 
 📦 mi-proyecto  
 │-- 📂 data # Datos originales y procesados  
 │   │-- credit_card_fraud_synthetic.csv   # Datos en bruto  
-│   │-- fraude_limpio.csv    # Datos limpios con fraudes  
+│   │-- Distribución de montos de transacción.xlsx    # Datos limpios con fraudes  
 │   │-- fraude_por_monto.csv # Segmentación por montos  
 │-- 📂 notebooks             # Análisis en Colab  
 │   │-- data_analisis_fraude_tarjetas.ipynb # Notebook con análisis exploratorio  
