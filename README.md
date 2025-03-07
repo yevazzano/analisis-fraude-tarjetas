@@ -84,7 +84,10 @@ Educar a los usuarios sobre cómo protegerse contra el fraude, especialmente en 
 │-- 📂 notebooks             # Análisis en Colab  
 │   │-- data_analisis_fraude_tarjetas.ipynb # Notebook con análisis exploratorio  
 │-- 📂 images               # Gráficos generados  
-│   │-- fraude_horarios.png  # Imagen con fraudes por hora  
-│   │-- fraude_montos.png    # Imagen con fraudes por monto  
+│   │-- Categorias-mas-fraude.png  # Imagen con fraudes por transacción  
+│   │-- Distribucion-Montos-Boxplot.png    # Imagen con Boxplot sobre montos con tipos de operación
+│   │-- Distribucion-Montos.png    # Imagen con distribución de montos en transacciones legítimas y fraudulentas
+│   │-- Fraude-vs-Total.png    # Imagen con Boxplot sobre montos con tipos de operaciónporpoerción de fraudesvs Total de Transacciones
+│   │-- Distribucion-Montos-Boxplot.png    # Imagen con Boxplot sobre montos con tipos de operación
 │-- README.md               # Documentación del proyecto 
 
