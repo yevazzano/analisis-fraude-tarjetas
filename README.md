@@ -78,7 +78,8 @@ Educar a los usuarios sobre cómo protegerse contra el fraude, especialmente en 
 
 📦 mi-proyecto
 
-├── data                      # Archivos de datos originales y procesados
+├── 📁**data/**    # Archivos de datos originales y procesados
+
 │   ├── credit_card_fraud_synthetic.csv    # Dataset original con las transacciones
 
 │   ├── Total transacciones fraudulentas.xlsx    # Tabla con las transacciones fraudulentas
@@ -96,7 +97,7 @@ Educar a los usuarios sobre cómo protegerse contra el fraude, especialmente en 
 │   └── Verifica valores nulos en las columnas clave.xlsx  # Validación de datos faltantes
 
 │
-├── images                   # Gráficos generados durante el análisis
+├── 📁**images/**                   # Gráficos generados durante el análisis
 
 │   ├── Categorías-mas-fraude.png
 
@@ -111,7 +112,7 @@ Educar a los usuarios sobre cómo protegerse contra el fraude, especialmente en 
 │   └── Rangos-Fraude.png
 
 │
-├── notebook                   # Cuaderno de trabajo con el análisis
+├── 📁**notebook/**                   # Cuaderno de trabajo con el análisis
 
 │   └── colab_fraud.ipynb       # Notebook con el análisis completo
 
