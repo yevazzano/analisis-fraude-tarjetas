@@ -76,18 +76,27 @@ Educar a los usuarios sobre cómo protegerse contra el fraude, especialmente en 
 
 ---
 
-📦 mi-proyecto  
-│-- 📂 data # Datos originales y procesados  
-│   │-- credit_card_fraud_synthetic.csv   # Datos en bruto  
-│   │-- Distribución de montos de transacción.xlsx    # Datos limpios con fraudes  
-│   │-- fraude_por_monto.csv # Segmentación por montos  
-│-- 📂 notebooks             # Análisis en Colab  
-│   │-- data_analisis_fraude_tarjetas.ipynb # Notebook con análisis exploratorio  
-│-- 📂 images               # Gráficos generados  
-│   │-- Categorias-mas-fraude.png  # Imagen con fraudes por transacción  
-│   │-- Distribucion-Montos-Boxplot.png    # Imagen con Boxplot sobre montos con tipos de operación
-│   │-- Distribucion-Montos.png    # Imagen con distribución de montos en transacciones legítimas y fraudulentas
-│   │-- Fraude-vs-Total.png    # Imagen con Boxplot sobre montos con tipos de operaciónporpoerción de fraudesvs Total de Transacciones
-│   │-- Distribucion-Montos-Boxplot.png    # Imagen con Boxplot sobre montos con tipos de operación
-│-- README.md               # Documentación del proyecto 
+📦 mi-proyecto
+├── data                      # Archivos de datos originales y procesados
+│   ├── credit_card_fraud_synthetic.csv    # Dataset original con las transacciones
+│   ├── Total transacciones fraudulentas.xlsx    # Tabla con las transacciones fraudulentas
+│   ├── Distribución de montos de transacción.xlsx  # Distribución de montos de transacción
+│   ├── categorias con mas fraudes.xlsx   # Categorías con mayor incidencia de fraudes
+│   ├── ¿Qué rango de montos es más prop.xlsx  # Rangos de montos más propensos a fraudes
+│   ├── En qué momentos ocurren más fraudes.xlsx  # Momentos con mayor incidencia de fraudes
+│   ├── Transacciones con desviacion significativa.xlsx  # Transacciones con valores atípicos
+│   └── Verifica valores nulos en las columnas clave.xlsx  # Validación de datos faltantes
+│
+├── images                   # Gráficos generados durante el análisis
+│   ├── Categorías-mas-fraude.png
+│   ├── Distribucion-Montos-Boxplot.png
+│   ├── Distribución-Montos.png
+│   ├── Fraude-vs-Total.png
+│   ├── Horario-Fraudes.png
+│   └── Rangos-Fraude.png
+│
+├── notebook                   # Cuaderno de trabajo con el análisis
+│   └── colab_fraud.ipynb       # Notebook con el análisis completo
+│
+└── README.md              # Documentación del proyecto
 
