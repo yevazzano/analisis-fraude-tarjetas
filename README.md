@@ -77,26 +77,44 @@ Educar a los usuarios sobre cómo protegerse contra el fraude, especialmente en 
 ---
 
 📦 mi-proyecto
+
 ├── data                      # Archivos de datos originales y procesados
 │   ├── credit_card_fraud_synthetic.csv    # Dataset original con las transacciones
+
 │   ├── Total transacciones fraudulentas.xlsx    # Tabla con las transacciones fraudulentas
+
 │   ├── Distribución de montos de transacción.xlsx  # Distribución de montos de transacción
+
 │   ├── categorias con mas fraudes.xlsx   # Categorías con mayor incidencia de fraudes
+
 │   ├── ¿Qué rango de montos es más prop.xlsx  # Rangos de montos más propensos a fraudes
+
 │   ├── En qué momentos ocurren más fraudes.xlsx  # Momentos con mayor incidencia de fraudes
+
 │   ├── Transacciones con desviacion significativa.xlsx  # Transacciones con valores atípicos
+
 │   └── Verifica valores nulos en las columnas clave.xlsx  # Validación de datos faltantes
+
 │
 ├── images                   # Gráficos generados durante el análisis
+
 │   ├── Categorías-mas-fraude.png
+
 │   ├── Distribucion-Montos-Boxplot.png
+
 │   ├── Distribución-Montos.png
+
 │   ├── Fraude-vs-Total.png
+
 │   ├── Horario-Fraudes.png
+
 │   └── Rangos-Fraude.png
+
 │
 ├── notebook                   # Cuaderno de trabajo con el análisis
+
 │   └── colab_fraud.ipynb       # Notebook con el análisis completo
+
 │
 └── README.md              # Documentación del proyecto
 
